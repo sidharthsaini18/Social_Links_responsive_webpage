@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 40rem;
+    background-color: rgb(24, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+   
+}
+
+.card{
+    border: 1px solid rgb(49, 48, 48);;
+    height: 35rem;
+    width: 25%;
+    background-color: rgb(44, 43, 43);
+    border-radius: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.sec1{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 5rem;
+    border-radius: 3rem;
+    margin-top: 3rem;
+   
+}
+
+.txt{
+    height: 5rem;
+    text-align: center;
+}
+h2{
+    color: white;
+    display: inline;
+   
+}
+h5{
+    padding-top: 5px;
+
+color: rgb(169, 223, 6);
+}
+p{
+    color: white;
+    font-size: small;
+    padding-top: 15px;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    margin-top: 0.5rem;
+}
+button{
+ margin-top: 1rem;
+ border-radius: 10px;
+ height: 2.8rem;
+ border: none;
+ background-color: rgb(88, 88, 88);
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 700;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+    color: black;
+    border: 1px black solid;
+    font-weight: 800;
+    
+    
+}
+
+
+@media screen  and (min-width:320px){
+    .card{
+         width: 95%;
+    }
+    
+}
+@media screen  and (min-width:425px){
+    .card{
+         width: 80%;
+    }
+    
+}
+@media screen  and (min-width:768px){
+    .card{
+         width: 60%;
+    }
+    
+}
+@media screen  and (min-width:1024px){
+    .card{
+         width: 50%;
+    }
+    
+}
+@media screen  and (min-width:1440px){
+    .card{
+         width: 50%;
+    }
+    
+}
+@media screen  and (min-width:2560px){
+    .card{
+         
+        width: 40%;
+    }
+    
+}
